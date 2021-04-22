@@ -11,7 +11,7 @@ function App() {
       <Header />
         <Switch>
           <main style={{
-            marginBottom: "50px"
+            marginBottom: "70px"
           }}>
             <Route exact path="/" component={Home} />
             <Route exact path="/notification" render={() => (
